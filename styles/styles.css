@@ -38,3 +38,26 @@ img {
 .item-5 {
   margin-top: 50px;
 }
+
+@media screen and (max-width: 576px) {
+  .header-container {
+    flex-direction: column;
+  }
+  .image-container {
+    display: flex;
+    flex-direction: row 2, 1fr;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 5px;
+  }
+  img {
+    width: 155px;
+  }
+  .item-4,
+  .item-6 {
+    margin-top: 35px;
+  }
+  .item-5 {
+    margin-top: 0px;
+  }
+}
