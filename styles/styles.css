@@ -1,0 +1,40 @@
+/* Primary Styles */
+
+/* Header related styles */
+.header-container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+/* main styles */
+img {
+  width: 200px;
+  margin-bottom: 0%;
+}
+
+.image-container {
+  display: grid;
+  grid-template-columns: repeat(3, 32%);
+  margin-left: 10%;
+  margin-top: 40px;
+}
+.designation {
+  word-spacing: -1px;
+}
+.name {
+  margin-top: 5px;
+  font-weight: bold;
+}
+.item {
+  margin-bottom: 25%;
+}
+.item-1 {
+  margin-bottom: 0px;
+}
+.item-2 {
+  margin-top: 50px;
+}
+.item-5 {
+  margin-top: 50px;
+}
